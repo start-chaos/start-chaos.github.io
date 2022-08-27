@@ -74,9 +74,6 @@ Amazon, Bloomberg, Netflix, Alibaba -- крупнейшие компании, к
 
 Информация о содержании курса и возможностях его проведения для вашей компании:
 
-- <https://t.me/yakubovskydn>
-- <https://t.me/epoepo>
-
 [tg-link-ep]: https://t.me/epoepo
 [tg-link-dy]: https://t.me/yakubovskydn
 [tg-badge-ep]: https://img.shields.io/badge/Telegram-Евгений_Погребняк-blue?style=flatsquare&logo=telegram&logoColor=white
