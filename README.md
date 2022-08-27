@@ -59,6 +59,10 @@ Amazon, Bloomberg, Netflix, Alibaba -- крупнейшие компании, к
 
 ## Авторы курса 
 
+[dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&&h=200&w=200&fit=cover&mask=circle&maxage=7d
+
+![][dy]
+
 - [Дмитрий Якубовский](https://github.com/dyakubovsky), исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка.
 - [Евгений Погребняк](https://github.com/epogrebnyak/), декан факультета финансовой экономики МГИМО, руководитель магистерской программы "Экономика ИТ и управление данными". 
 
