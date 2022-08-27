@@ -1,7 +1,14 @@
-# start-chaos.github.io
+<h1 align="center">
 
-<center>
-<img src="https://avatars.githubusercontent.com/u/111044530?s=200&v=4">
-</center>
+  Курс по Дмитрия Якубовского по Chaos Engineering
 
-Сайт курса
+  <img src="https://avatars.githubusercontent.com/u/111044530?s=200&v=4" alt="">
+
+</h1>
+
+
+<div align="center">
+  
+**Тестирование надежности и отказоустойчивости информационных систем**
+
+</div>
