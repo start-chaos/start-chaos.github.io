@@ -59,12 +59,13 @@ Amazon, Bloomberg, Netflix, Alibaba -- крупнейшие компании, к
 
 ## Авторы курса 
 
-[dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&&h=200&w=200&fit=cover&mask=circle&maxage=7d
+[dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&h=200&w=200&fit=cover&mask=circle&maxage=7d
 
-[ep]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/9265326&&h=200&w=200&fit=cover&mask=circle&maxage=7d
+[ep]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/9265326&h=200&w=200&fit=cover&mask=circle&maxage=7d
 
+[ep2]: https://images.weserv.nl/?url=sun1-97.userapi.com/s/v1/ig2/6FKPz9G7BhUbuZOYIl8WdMy4HFJYdfu9QmwFeiwMQgYWPwAWjjbv2TrlwfxeroCLbI6_IWDBDnn-uAUM_7JObeaj.jpg?size=200x200&quality=95&crop=40,52,870,870&ava=1&h=200&w=200&fit=cover&mask=circle&maxage=7d
 
-![][dy] ![][ep]
+![][dy] ![][ep] ![][ep2]
 
 - [Дмитрий Якубовский](https://github.com/dyakubovsky), исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка.
 - [Евгений Погребняк](https://github.com/epogrebnyak/), декан факультета финансовой экономики МГИМО, руководитель магистерской программы "Экономика ИТ и управление данными". 
