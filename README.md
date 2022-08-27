@@ -63,7 +63,7 @@ Amazon, Bloomberg, Netflix, Alibaba -- крупнейшие компании, к
 
 [ep]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/9265326&h=200&w=200&fit=cover&mask=circle&maxage=7d
 
-[ep2]: https://images.weserv.nl/?url=sun1-97.userapi.com/s/v1/ig2/6FKPz9G7BhUbuZOYIl8WdMy4HFJYdfu9QmwFeiwMQgYWPwAWjjbv2TrlwfxeroCLbI6_IWDBDnn-uAUM_7JObeaj.jpg?size=200x200&quality=95&crop=40,52,870,870&ava=1&h=200&w=200&fit=cover&mask=circle&maxage=7d
+[ep2]: https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&h=200&w=200&fit=cover&mask=circle&maxage=7d
 
 ![][dy] ![][ep] ![][ep2]
 
