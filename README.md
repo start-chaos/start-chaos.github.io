@@ -59,11 +59,11 @@ Amazon, Bloomberg, Netflix, Alibaba — крупнейшие компании, �
 
 ## Авторы курса 
 
-[dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&h=200&w=200&fit=cover&mask=circle&maxage=7d
+[dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&h=150&w=150&fit=cover&mask=circle&maxage=7d
 
-[ep]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/9265326&h=200&w=200&fit=cover&mask=circle&maxage=7d
+[ep]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/9265326&h=150&w=150&fit=cover&mask=circle&maxage=7d
 
-[ep2]: https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&h=200&w=200&fit=cover&mask=circle&maxage=7d
+[ep2]: https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&h=150&w=150&fit=cover&mask=circle&maxage=7d
 
 ![][dy] ![][ep2]
 
