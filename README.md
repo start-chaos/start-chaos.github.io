@@ -77,5 +77,15 @@ Amazon, Bloomberg, Netflix, Alibaba -- крупнейшие компании, к
 - <https://t.me/yakubovskydn>
 - <https://t.me/epoepo>
 
+[tg-link-ep]: https://t.me/epoepo
+[tg-link-dy]: https://t.me/yakubovskydn
+[tg-badge-ep]: https://img.shields.io/badge/Telegram-Евгений_Погребняк-blue?style=flatsquare&logo=telegram&logoColor=white
+[tg-badge-dy]: https://img.shields.io/badge/Telegram-Дмитрий_Якубовский-blue?style=flatsquare&logo=telegram&logoColor=white
+
+[![Telegram Yakubovsky][tg-badge-dy]][tg-link-dy]
+[![Telegram Pogrebnyak][tg-badge-ep]][tg-link-ep]
+
+
+
 
 
