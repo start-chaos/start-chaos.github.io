@@ -65,7 +65,7 @@ Amazon, Bloomberg, Netflix, Alibaba -- крупнейшие компании, к
 
 [ep2]: https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&h=200&w=200&fit=cover&mask=circle&maxage=7d
 
-![][dy] ![][ep] ![][ep2]
+![][dy] ![][ep2]
 
 - [Дмитрий Якубовский](https://github.com/dyakubovsky), исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка.
 - [Евгений Погребняк](https://github.com/epogrebnyak/), декан факультета финансовой экономики МГИМО, руководитель магистерской программы "Экономика ИТ и управление данными". 
