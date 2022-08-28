@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Курс по Chaos Engineering</title>
+    <title>Курс Дмитрия Якубовского по Chaos Engineering &#8212; Курс по Chaos Engineering</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,10 +50,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://start-chaos.github.io/README.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Cфера применения" href="scope.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -85,7 +85,69 @@ const thebe_selector_output = ".output, .cell_output"
       <div class="row">
           
 <!-- Sidebar -->
-<div class="bd-sidebar noprint single-page" id="site-navigation">
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/chaos_start_logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Курс по Chaos Engineering</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Курс Дмитрия Якубовского  по Chaos Engineering
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="scope.html">
+   Cфера применения
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="authors.html">
+   Авторы курса
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="enroll.html">
+   Контакты
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="glossary.html">
+   Глоссарий
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            <a href="enroll.html">Прослушать курс</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -106,6 +168,21 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="col py-1 d-flex header-article-main">
     <div class="header-article__left">
         
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
     </div>
     <div class="header-article__right">
 <button onclick="toggleFullScreen()"
@@ -121,6 +198,52 @@ title="Fullscreen mode"
   </span>
 
 </button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/README.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
 <label for="__page-toc"
   class="headerbtn headerbtn-page-toc"
   
@@ -143,24 +266,29 @@ title="Fullscreen mode"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-scope">
-   Cфера применения
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Отказоустойчивость
   </a>
  </li>
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-authors">
-   Авторы курса
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#netflix-cncf">
+   От Netflix до CNCF
   </a>
  </li>
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-enroll">
-   Контакты
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Хаос на российском рынке
   </a>
  </li>
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-glossary">
-   Глоссарий
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   Курс Дмитрия Якубовского
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   Кто слушатели курса?
   </a>
  </li>
 </ul>
@@ -182,24 +310,29 @@ title="Fullscreen mode"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-scope">
-   Cфера применения
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Отказоустойчивость
   </a>
  </li>
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-authors">
-   Авторы курса
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#netflix-cncf">
+   От Netflix до CNCF
   </a>
  </li>
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-enroll">
-   Контакты
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Хаос на российском рынке
   </a>
  </li>
- <li class="toctree-l1 toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="README.html#document-glossary">
-   Глоссарий
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   Курс Дмитрия Якубовского
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   Кто слушатели курса?
   </a>
  </li>
 </ul>
@@ -234,7 +367,7 @@ title="Fullscreen mode"
 <h2>Хаос на российском рынке<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
 <p>В августе 2022 года на сервисе Headhunter было 1942 вакансии по DevOps, 193 по SRE и 6 по chaos engineering. Хаос-испытаниями занимается достаточно небольшой круг продвинутых команд и компаний,
 чаще всего в сфере высоконагруженных сервисов.</p>
-<p>Кому подходит и кому не рекомендуется chaos engineering мы рассказываем <a class="reference internal" href="README.html#document-scope"><span class="doc std std-doc">здесь</span></a>.</p>
+<p>Кому подходит и кому не рекомендуется chaos engineering мы рассказываем <a class="reference internal" href="scope.html"><span class="doc std std-doc">здесь</span></a>.</p>
 </section>
 <section id="id3">
 <h2>Курс Дмитрия Якубовского<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h2>
@@ -261,105 +394,6 @@ title="Fullscreen mode"
 <p>Возможна адаптация курса под запросы компании и конкретную аудиторию слушателей.</p>
 </section>
 <div class="toctree-wrapper compound">
-<span id="document-scope"></span><section class="tex2jax_ignore mathjax_ignore" id="c">
-<h2>Cфера применения<a class="headerlink" href="#c" title="Permalink to this headline">#</a></h2>
-<section id="id1">
-<h3>Наши рекомендации<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
-<p>Для каких компаний подходит chaos engineering? На наш взгляд, chaos engineering наиболее полезен компаниям, которые:</p>
-<ul class="simple">
-<li><p>видят успешные примеры внедрения chaos engineering в своей или аналогичных отраслях,</p></li>
-<li><p>работают в сферах, где потребитель наиболее чувствителен к надежности и качеству сервисов;</p></li>
-<li><p>могут показать акционерам ценность надежной работы сервисов;</p></li>
-<li><p>ожидают роста требований по надежности, в том числе со стороны регуляторов;</p></li>
-<li><p>активно используют микросервисы и распределенные системы;</p></li>
-<li><p>имеют достаточные компетенции в проектировании отказоустойчивого ПО;</p></li>
-<li><p>планируют миграции на новые архитектуры или стек технологий, при этом хотят убедиться в отказоустойчивости нового решения;</p></li>
-<li><p>умеют менять и намерены совершенствовать корпоративную техническую и организационную культуру.</p></li>
-</ul>
-</section>
-<section id="id2">
-<h3>Ограничения<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
-<p>Воспользоваться курсом по chaos engineering будет сложнее компаниям, у которых:</p>
-<ul class="simple">
-<li><p>продукт или сервис находятся в начальной стадии разработки или прототипирования, архитектура приложений будет меняться;</p></li>
-<li><p>нет собственной разработки, ведется только настройка и эксплуатация приобретенного ПО;</p></li>
-<li><p>не стоит задача создания отказоустойчивого ПО;</p></li>
-<li><p>не предполагается масштабирование сервиса на большое число пользователей;</p></li>
-<li><p>по архитектуре преобладают монолитные приложения;</p></li>
-<li><p>специализация преимущественно на front-end разработке;</p></li>
-<li><p>не документируются требования или SLA используемых систем;</p></li>
-<li><p>не выстроен современный релизный цикл ПО или релизы занимают длительное время;</p></li>
-<li><p>проводится мало других видов тестирования помимо хаос-инжиниринга;</p></li>
-<li><p>нет мониторинга надежности сервисов в стадии эксплуатации;</p></li>
-<li><p>не ведется история и разбор инцидентов в области надежности;</p></li>
-<li><p>надежность сервиса не критична для пользователей;</p></li>
-<li><p>эксплуатируются legacy и end-of-life приложения, не подлежащие рефакторингу или доработке.</p></li>
-</ul>
-</section>
-</section>
-<span id="document-authors"></span><section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h2>Авторы курса<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
-<div align="center">
-<p><img alt="Дмитрий Якубовский" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&amp;h=150&amp;w=150&amp;fit=cover&amp;mask=circle&amp;maxage=7d" /> <img alt="Евгений Погребняк" src="https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&amp;h=150&amp;w=150&amp;fit=cover&amp;mask=circle&amp;maxage=7d" /></p>
-</div>
-<section id="id2">
-<h3><a class="reference external" href="https://github.com/dyakubovsky">Дмитрий Якубовский</a><a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
-<p>Исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка. Опыт работы в сфере Chaos Engineering c 2015 года.</p>
-</section>
-<section id="id3">
-<h3><a class="reference external" href="https://github.com/epogrebnyak/">Евгений Погребняк</a><a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
-<p>Декан факультета финансовой экономики МГИМО, руководитель магистерской программы “Экономика ИТ и управление данными”.</p>
-</section>
-</section>
-<span id="document-enroll"></span><section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h2>Контакты<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
-<p>Наши контакты в Telegram:</p>
-<p><a class="reference external" href="https://t.me/yakubovskydn"><img alt="Telegram Yakubovsky &#64;yakubovskydn" src="https://img.shields.io/badge/Telegram-%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%AF%D0%BA%D1%83%D0%B1%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_(&#64;yakubovskydn)-blue?style=flatsquare&amp;logo=telegram&amp;logoColor=white" /></a>
-<a class="reference external" href="https://t.me/epoepo"><img alt="Telegram Pogrebnyak &#64;epoepo" src="https://img.shields.io/badge/Telegram-%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9F%D0%BE%D0%B3%D1%80%D0%B5%D0%B1%D0%BD%D1%8F%D0%BA_(&#64;epoepo)-blue?style=flatsquare&amp;logo=telegram&amp;logoColor=white" /></a></p>
-<p>Напишите нам, если вы хотели бы:</p>
-<ul class="simple">
-<li><p>подробнее узнать о курсе;</p></li>
-<li><p>запланировать проведение курса в вашей компании;</p></li>
-<li><p>поделиться личным опытом или задать вопрос из области chaos engineering.</p></li>
-</ul>
-</section>
-<span id="document-glossary"></span><section id="id1">
-<h2>Глоссарий<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
-<dl class="glossary">
-<dt id="term-Chaos-engineering">Chaos engineering<a class="headerlink" href="#term-Chaos-engineering" title="Permalink to this term">#</a></dt><dd><p>Дисциплина и набор практик по проведению <a class="reference internal" href="#term-3"><span class="xref std std-term">экспериментов</span></a>,
-подтверждающих способность информационных систем
-противостоять неблагоприятным условиям в эксплуатационной среде
-(адаптировано из <a class="reference internal" href="#term-Principles-of-Chaos"><span class="xref std std-term">Principles of Chaos</span></a>).</p>
-</dd>
-<dt id="term-CNCF">CNCF<a class="headerlink" href="#term-CNCF" title="Permalink to this term">#</a></dt><dd><p><a class="reference external" href="https://www.cncf.io/">Cloud Native Computing Foundation</a>.</p>
-</dd>
-<dt id="term-K8s">K8s<a class="headerlink" href="#term-K8s" title="Permalink to this term">#</a></dt><dd><p><a class="reference external" href="https://kubernetes.io/">Kubernetes</a>.</p>
-</dd>
-<dt id="term-Principles-of-Chaos">Principles of Chaos<a class="headerlink" href="#term-Principles-of-Chaos" title="Permalink to this term">#</a></dt><dd><p>Манифест chaos engineering, находится по адресу <a class="reference external" href="https://principlesofchaos.org/">https://principlesofchaos.org/</a></p>
-</dd>
-<dt id="term-SRE">SRE<a class="headerlink" href="#term-SRE" title="Permalink to this term">#</a></dt><dd><p>Site Reliability Engineering.</p>
-</dd>
-<dt id="term-1">Атака<a class="headerlink" href="#term-1" title="Permalink to this term">#</a></dt><dd><p>Создание неблагоприятных условий работы системы в ходе хаос-испытания.</p>
-</dd>
-<dt id="term-2">Инструмент<a class="headerlink" href="#term-2" title="Permalink to this term">#</a></dt><dd><p>Утилита для проведения <a class="reference internal" href="#term-1"><span class="xref std std-term">атаки</span></a> (эмуляции отказа).</p>
-</dd>
-<dt id="term-3">Испытание<a class="headerlink" href="#term-3" title="Permalink to this term">#</a></dt><dd><p>Контролируемое внесение изменений в условия работы сервиса на тестовом стенде
-или в эксплуатационной среде.
-Испытание проводится для подтверждения или опровержения заранее сформулированной
-гипотезы относительно поведения системы в неблагоприятных условиях.</p>
-<p>Синонимы: хаос-испытание, эксперимент, хаос-эксперимент.</p>
-</dd>
-<dt id="term-0">ПО<a class="headerlink" href="#term-0" title="Permalink to this term">#</a></dt><dd><p>Программное обеспечение.</p>
-</dd>
-<dt id="term-4">Система<a class="headerlink" href="#term-4" title="Permalink to this term">#</a></dt><dd><p>Конкретная информационная система, которую мы тестируем.</p>
-<p>Синонимы: автоматизированная система (АС), сервис.</p>
-</dd>
-<dt id="term-5">Точка отказа<a class="headerlink" href="#term-5" title="Permalink to this term">#</a></dt><dd><p>Ситуация нештатного поведения системы, которая найдена в ходе
-<a class="reference internal" href="#term-3"><span class="xref std std-term">хаос-испытания</span></a>.</p>
-</dd>
-</dl>
-<p>Версия 0.3.2</p>
-</section>
 </div>
 </section>
 
@@ -390,6 +424,13 @@ title="Fullscreen mode"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="scope.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Cфера применения</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>
