@@ -4,7 +4,6 @@
 [tg-link-dy]: https://t.me/yakubovskydn
 [tg-badge-ep]: https://img.shields.io/badge/Telegram-Евгений_Погребняк_(@epoepo)-blue?style=flatsquare&logo=telegram&logoColor=white
 [tg-badge-dy]: https://img.shields.io/badge/Telegram-Дмитрий_Якубовский_(@yakubovskydn)-blue?style=flatsquare&logo=telegram&logoColor=white
-
 [dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&h=150&w=150&fit=cover&mask=circle&maxage=7d
 [ep]: https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&h=150&w=150&fit=cover&mask=circle&maxage=7d
 
@@ -28,6 +27,6 @@
 
 # Напишите нам в Telegram
 
-- задайте вопрос по chaos engineering;
-- спросите о содержании курса;
-- расскажите о потребностях вашей компании начать или масштабировать хаос-испытания.
+- Задайте вопрос по chaos engineering
+- Уточните содержание курса
+- Расскажите о потребностях вашей компании в области хаос-испытаний
