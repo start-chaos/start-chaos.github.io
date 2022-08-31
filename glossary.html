@@ -109,14 +109,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="README.html">
-                    Курс Дмитрия Якубовского  по Chaos Engineering
+                    Курс Дмитрия Якубовского по Chaos Engineering
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="scope.html">
-   Cфера применения
+   Сфера применения chaos engineering
   </a>
  </li>
  <li class="toctree-l1">
@@ -271,39 +271,46 @@ title="Print to PDF"
   <section id="id1">
 <h1>Глоссарий<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
 <dl class="glossary">
-<dt id="term-Chaos-engineering">Chaos engineering<a class="headerlink" href="#term-Chaos-engineering" title="Permalink to this term">#</a></dt><dd><p>Дисциплина и набор практик по проведению <a class="reference internal" href="#term-3"><span class="xref std std-term">экспериментов</span></a>,
+<dt id="term-Chaos-engineering">Chaos engineering<a class="headerlink" href="#term-Chaos-engineering" title="Permalink to this term">#</a></dt><dd><p>Дисциплина и набор практик по проведению <a class="reference internal" href="#term-4"><span class="xref std std-term">экспериментов</span></a>,
 подтверждающих способность информационных систем
 противостоять неблагоприятным условиям в эксплуатационной среде
 (адаптировано из <a class="reference internal" href="#term-Principles-of-Chaos"><span class="xref std std-term">Principles of Chaos</span></a>).</p>
 </dd>
 <dt id="term-CNCF">CNCF<a class="headerlink" href="#term-CNCF" title="Permalink to this term">#</a></dt><dd><p><a class="reference external" href="https://www.cncf.io/">Cloud Native Computing Foundation</a>.</p>
 </dd>
+<dt id="term-DevOps">DevOps<a class="headerlink" href="#term-DevOps" title="Permalink to this term">#</a></dt><dd><p>Development and operations.</p>
+</dd>
 <dt id="term-K8s">K8s<a class="headerlink" href="#term-K8s" title="Permalink to this term">#</a></dt><dd><p><a class="reference external" href="https://kubernetes.io/">Kubernetes</a>.</p>
 </dd>
-<dt id="term-Principles-of-Chaos">Principles of Chaos<a class="headerlink" href="#term-Principles-of-Chaos" title="Permalink to this term">#</a></dt><dd><p>Манифест chaos engineering, находится по адресу <a class="reference external" href="https://principlesofchaos.org/">https://principlesofchaos.org/</a></p>
+<dt id="term-Principles-of-Chaos">Principles of Chaos<a class="headerlink" href="#term-Principles-of-Chaos" title="Permalink to this term">#</a></dt><dd><p>Манифест методологии chaos engineering, опубликован по адресу <a class="reference external" href="https://principlesofchaos.org/">https://principlesofchaos.org/</a></p>
+</dd>
+<dt id="term-SLA">SLA<a class="headerlink" href="#term-SLA" title="Permalink to this term">#</a></dt><dd><p>Service Layer Agreement.</p>
 </dd>
 <dt id="term-SRE">SRE<a class="headerlink" href="#term-SRE" title="Permalink to this term">#</a></dt><dd><p>Site Reliability Engineering.</p>
 </dd>
 <dt id="term-1">Атака<a class="headerlink" href="#term-1" title="Permalink to this term">#</a></dt><dd><p>Создание неблагоприятных условий работы системы в ходе хаос-испытания.</p>
 </dd>
-<dt id="term-2">Инструмент<a class="headerlink" href="#term-2" title="Permalink to this term">#</a></dt><dd><p>Утилита для проведения <a class="reference internal" href="#term-1"><span class="xref std std-term">атаки</span></a> (эмуляции отказа).</p>
+<dt id="term-2">Гипотеза<a class="headerlink" href="#term-2" title="Permalink to this term">#</a></dt><dd><p>Предположение о поведении системы при конкретном виде воздействия (<a class="reference internal" href="#term-1"><span class="xref std std-term">атаке</span></a>) на
+конкретный архитектурный элемент <a class="reference internal" href="#term-5"><span class="xref std std-term">системы</span></a>.</p>
 </dd>
-<dt id="term-3">Испытание<a class="headerlink" href="#term-3" title="Permalink to this term">#</a></dt><dd><p>Контролируемое внесение изменений в условия работы сервиса на тестовом стенде
+<dt id="term-3">Инструмент<a class="headerlink" href="#term-3" title="Permalink to this term">#</a></dt><dd><p>Утилита для проведения <a class="reference internal" href="#term-1"><span class="xref std std-term">атаки</span></a> (эмуляции отказа).</p>
+</dd>
+<dt id="term-4">Испытание<a class="headerlink" href="#term-4" title="Permalink to this term">#</a></dt><dd><p>Контролируемое внесение изменений в условия работы сервиса на тестовом стенде
 или в эксплуатационной среде.
 Испытание проводится для подтверждения или опровержения заранее сформулированной
-гипотезы относительно поведения системы в неблагоприятных условиях.</p>
+<a class="reference internal" href="#term-2"><span class="xref std std-term">гипотезы</span></a> относительно поведения системы в неблагоприятных условиях.</p>
 <p>Синонимы: хаос-испытание, эксперимент, хаос-эксперимент.</p>
 </dd>
 <dt id="term-0">ПО<a class="headerlink" href="#term-0" title="Permalink to this term">#</a></dt><dd><p>Программное обеспечение.</p>
 </dd>
-<dt id="term-4">Система<a class="headerlink" href="#term-4" title="Permalink to this term">#</a></dt><dd><p>Конкретная информационная система, которую мы тестируем.</p>
+<dt id="term-5">Система<a class="headerlink" href="#term-5" title="Permalink to this term">#</a></dt><dd><p>Конкретная информационная система, которую мы тестируем.</p>
 <p>Синонимы: автоматизированная система (АС), сервис.</p>
 </dd>
-<dt id="term-5">Точка отказа<a class="headerlink" href="#term-5" title="Permalink to this term">#</a></dt><dd><p>Ситуация нештатного поведения системы, которая найдена в ходе
-<a class="reference internal" href="#term-3"><span class="xref std std-term">хаос-испытания</span></a>.</p>
+<dt id="term-6">Точка отказа<a class="headerlink" href="#term-6" title="Permalink to this term">#</a></dt><dd><p>Ситуация нештатного поведения системы, которая найдена в ходе
+<a class="reference internal" href="#term-4"><span class="xref std std-term">хаос-испытания</span></a>.</p>
 </dd>
 </dl>
-<p>Версия 0.4.0</p>
+<p>Версия 0.4.3</p>
 </section>
 
     <script type="text/x-thebe-config">
