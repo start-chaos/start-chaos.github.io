@@ -5,7 +5,6 @@
 [tg-badge-ep]: https://img.shields.io/badge/Telegram-Евгений_Погребняк_(@epoepo)-blue?style=flatsquare&logo=telegram&logoColor=white
 [tg-badge-dy]: https://img.shields.io/badge/Telegram-Дмитрий_Якубовский_(@yakubovskydn)-blue?style=flatsquare&logo=telegram&logoColor=white
 
-
 ```{image} images/dy.png
 :alt: Дмитрий Якубовский
 :align: center
@@ -16,7 +15,6 @@
 [![Telegram Yakubovsky @yakubovskydn][tg-badge-dy]][tg-link-dy]
 
 Исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка. Опыт работы в сфере Chaos Engineering c 2015 года.
-
 
 ```{image} images/ep.png
 :alt: Евгений Погребняк
@@ -34,4 +32,3 @@
 1. Задайте интересующий вас вопрос по chaos engineering.
 2. Расскажите о потребностях вашей компании в хаос-испытаниях.
 3. Уточните содержание курса и закажите его проведение.
- 

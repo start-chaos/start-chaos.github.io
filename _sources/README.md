@@ -2,7 +2,7 @@
 
 **Тестирование надежности и отказоустойчивости информационных систем**
 
-<https://start-chaos.github.io/>
+[![](https://img.shields.io/endpoint?url=https://start-chaos.github.io/badge.json)](https://start-chaos.github.io/)
 
 ## Отказоустойчивость
 
