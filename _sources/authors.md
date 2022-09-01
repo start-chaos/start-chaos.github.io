@@ -4,20 +4,24 @@
 [tg-link-dy]: https://t.me/yakubovskydn
 [tg-badge-ep]: https://img.shields.io/badge/Telegram-Евгений_Погребняк_(@epoepo)-blue?style=flatsquare&logo=telegram&logoColor=white
 [tg-badge-dy]: https://img.shields.io/badge/Telegram-Дмитрий_Якубовский_(@yakubovskydn)-blue?style=flatsquare&logo=telegram&logoColor=white
-[dy]: https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17800175&h=150&w=150&fit=cover&mask=circle&maxage=7d
-[ep]: https://images.weserv.nl/?url=https://github.com/start-chaos/start-chaos.github.io/blob/main/ep_avatar.jpg?raw=true&h=150&w=150&fit=cover&mask=circle&maxage=7d
 
-<div align="center">
 
-![Дмитрий Якубовский][dy] ![Евгений Погребняк][ep]
-
-</div>
+```{image} images/dy.png
+:alt: Дмитрий Якубовский
+:align: center
+```
 
 ## [Дмитрий Якубовский](https://github.com/dyakubovsky)
 
 [![Telegram Yakubovsky @yakubovskydn][tg-badge-dy]][tg-link-dy]
 
 Исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка. Опыт работы в сфере Chaos Engineering c 2015 года.
+
+
+```{image} images/ep.png
+:alt: Евгений Погребняк
+:align: center
+```
 
 ## [Евгений Погребняк](https://github.com/epogrebnyak/)
 
@@ -27,6 +31,7 @@
 
 # Напишите нам в Telegram
 
-- Задайте вопрос по chaos engineering
-- Уточните содержание курса
-- Расскажите о потребностях вашей компании в области хаос-испытаний
+1. Задайте интересующий вас вопрос по chaos engineering.
+2. Расскажите о потребностях вашей компании в хаос-испытаниях.
+3. Уточните содержание курса и закажите его проведение.
+ 
