@@ -11,9 +11,9 @@
       `Cloud Native Computing Foundation <https://www.cncf.io/>`__.
 
    DevOps
-      Development and operations. Набор методик, инструментов и элементов технической культуры, 
-      которые позволяют автоматизировать и интегрировать между собой процессы разработки 
-      и эксплуатации ПО. 
+      Development and operations. Набор методик и инструментов, 
+      которые позволяют автоматизировать и интегрировать 
+      между собой процессы разработки и эксплуатации ПО. 
 
    K8s
       `Kubernetes <https://kubernetes.io/>`__.
@@ -35,7 +35,8 @@
       (адаптировано из :term:`Principles of Chaos`).
 
    Principles of Chaos
-      Манифест методологии chaos engineering, опубликован по адресу `https://principlesofchaos.org/ <https://principlesofchaos.org/>`__
+      Манифест методологии :term:`chaos engineering`, 
+      опубликован по адресу `https://principlesofchaos.org/ <https://principlesofchaos.org/>`__.
 
    Атака   
       Создание неблагоприятных условий работы системы в ходе :term:`хаос-испытания <Испытание>`.
