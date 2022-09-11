@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Курс Дмитрия Якубовского по Chaos Engineering &#8212; Курс по Chaos Engineering</title>
+    <title>Хаос-испытания отказоустойчивости информационных систем &#8212; Курс по Chaos Engineering</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -109,7 +109,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Курс Дмитрия Якубовского по Chaos Engineering
+                    Хаос-испытания отказоустойчивости информационных систем
                 </a>
             </li>
         </ul>
@@ -267,7 +267,12 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+  <a class="reference internal nav-link" href="#id2">
+   Зачем этот курс?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
    Отказоустойчивость
   </a>
  </li>
@@ -277,7 +282,7 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id2">
+  <a class="reference internal nav-link" href="#id4">
    Хаос на российском рынке
   </a>
  </li>
@@ -290,7 +295,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Курс Дмитрия Якубовского по Chaos Engineering</h1>
+                <h1>Хаос-испытания отказоустойчивости информационных систем</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -301,7 +306,12 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+  <a class="reference internal nav-link" href="#id2">
+   Зачем этот курс?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
    Отказоустойчивость
   </a>
  </li>
@@ -311,7 +321,7 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id2">
+  <a class="reference internal nav-link" href="#id4">
    Хаос на российском рынке
   </a>
  </li>
@@ -325,12 +335,18 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="chaos-engineering">
-<h1>Курс Дмитрия Якубовского по Chaos Engineering<a class="headerlink" href="#chaos-engineering" title="Permalink to this headline">#</a></h1>
-<p><strong>Тестирование надежности и отказоустойчивости информационных систем</strong></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>Хаос-испытания отказоустойчивости информационных систем<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h1>
 <p><a class="reference external" href="https://start-chaos.github.io/"><img alt="" src="https://img.shields.io/endpoint?url=https://start-chaos.github.io/badge.json" /></a></p>
-<section id="id1">
-<h2>Отказоустойчивость<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<section id="id2">
+<h2>Зачем этот курс?<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
+<p>Мы учим моделировать аномальные ситуации в работе дорогих и сложных ИТ-систем,
+чтобы вы находили и устраняли отказы и сбои <u> до того</u>, как они произошли.</p>
+<p>Внедряя практику хаос-испытаний на уровне компании, вы сможете перейти
+от режима реагирования на инциденты к их проактивному предотвращению.</p>
+</section>
+<section id="id3">
+<h2>Отказоустойчивость<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h2>
 <p>Микросервисные и распределенные архитектуры позволяют создавать более сложные и масштабируемые ИТ-системы.
 В эксплуатационной среде неизбежны сбои, к которым одни системы готовы, а другие — нет.
 Проверку отказоустойчивости обеспечивает новый вид тестирования, который называется chaos engineering.</p>
@@ -339,12 +355,12 @@ title="Print to PDF"
 <h2>От Netflix до CNCF<a class="headerlink" href="#netflix-cncf" title="Permalink to this headline">#</a></h2>
 <p>Впервые chaos engineering стали применять в компании Netflix в ходе миграции видеосервиса на облачную инфраструктуру. В 2011 году Netflix выпустил в открытый доступ первый инструмент для проведения хаос-испытаний — <a class="reference external" href="https://github.com/Netflix/chaosmonkey">Chaos Monkey</a>.</p>
 <p>Лидеры направления chaos engineering в настоящее время это Amazon, Bloomberg, Netflix и Alibaba,
-крупнейшие провайдеры SaaS-сервисов для хаос-испытаний — американская Gremlin и европейская ChaosIQ (Великобритания/Франция).</p>
+крупнейшие провайдеры SaaS-сервисов для хаос-испытаний — американская Gremlin и европейская ChaosIQ.</p>
 <p>С 2017 года инструменты chaos engineering стали официальной частью ландшафта технологий,
 которые <a class="reference external" href="https://www.cncf.io/">Cloud Native Computing Foundation</a> (CNCF) рекомендует для Kubernetes.</p>
 </section>
-<section id="id2">
-<h2>Хаос на российском рынке<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
+<section id="id4">
+<h2>Хаос на российском рынке<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h2>
 <p>В августе 2022 года на сервисе Headhunter было 1942 вакансии по DevOps, 193 по SRE и 6 по chaos engineering. Хаос-испытаниями занимается достаточно небольшой круг продвинутых команд и компаний,
 которые чаще всего работают с массовыми, высоконагруженными сервисами.</p>
 <p>Кому подходит и кому не рекомендуется chaos engineering мы рассказываем <a class="reference internal" href="scope.html"><span class="doc std std-doc">здесь</span></a>.</p>
