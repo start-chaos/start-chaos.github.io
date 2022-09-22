@@ -6,27 +6,17 @@
 [tg-badge-dy]: https://img.shields.io/badge/Telegram-Дмитрий_Якубовский_(@yakubovskydn)-blue?style=flatsquare&logo=telegram&logoColor=white
 
 
-<center>
-
 ## [Дмитрий Якубовский](https://github.com/dyakubovsky)
 
-```{image} images/dy.png
-:alt: Дмитрий Якубовский
-:align: center
-```
+![Дмитрий Якубовский](images/dy.png)
 
 Исполнительный директор, лидер направления Chaos Engineering в розничном блоке Сбербанка. Опыт работы в сфере Chaos Engineering c 2015 года.
 
 ## [Евгений Погребняк](https://github.com/epogrebnyak/)
 
-```{image} images/ep.png
-:alt: Евгений Погребняк
-:align: center
-```
+![Евгений Погребняк](images/ep.png)
 
 Декан факультета финансовой экономики МГИМО, руководитель магистерской программы "Экономика ИТ и управление данными".
-
-</center>
 
 # Напишите нам в Telegram
 
