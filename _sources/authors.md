@@ -5,7 +5,6 @@
 [tg-badge-ep]: https://img.shields.io/badge/Telegram-Евгений_Погребняк_(@epoepo)-blue?style=flatsquare&logo=telegram&logoColor=white
 [tg-badge-dy]: https://img.shields.io/badge/Telegram-Дмитрий_Якубовский_(@yakubovskydn)-blue?style=flatsquare&logo=telegram&logoColor=white
 
-
 ## [Дмитрий Якубовский](https://github.com/dyakubovsky)
 
 ![Дмитрий Якубовский](images/dy.png)
