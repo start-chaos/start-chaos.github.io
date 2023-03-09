@@ -1,4 +1,5 @@
 (start_course)=
+
 # Где применяется chaos engineering?
 
 Для каких компаний подходит chaos engineering? На наш взгляд, chaos engineering наиболее полезен компаниям, которые:
