@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Где применяется chaos engineering? &#8212; Курс Дмитрия Якубовского по Chaos Engineering</title>
+    <title>Уровни зрелости chaos engineering в компании &#8212; Курс Дмитрия Якубовского по Chaos Engineering</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,11 +50,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://start-chaos.github.io/scope.html" />
+    <link rel="canonical" href="https://start-chaos.github.io/adoption.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Уровни зрелости chaos engineering в компании" href="adoption.html" />
-    <link rel="prev" title="Хаос-испытания отказоустойчивости информационных систем" href="README.html" />
+    <link rel="next" title="Содержание и ожидаемые результаты курса" href="course.html" />
+    <link rel="prev" title="Где применяется chaos engineering?" href="scope.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -115,13 +115,13 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="scope.html">
    Где применяется chaos engineering?
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="adoption.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Уровни зрелости chaos engineering в компании
   </a>
  </li>
@@ -218,7 +218,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/scope.md"
+        <a href="_sources/adoption.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -267,7 +267,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Где применяется chaos engineering?</h1>
+                <h1>Уровни зрелости chaos engineering в компании</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -280,32 +280,27 @@ title="Print to PDF"
               <div>
                 
   <section class="tex2jax_ignore mathjax_ignore" id="chaos-engineering">
-<span id="start-course"></span><h1>Где применяется chaos engineering?<a class="headerlink" href="#chaos-engineering" title="Permalink to this headline">#</a></h1>
-<p>Для каких компаний подходит chaos engineering? На наш взгляд, chaos engineering наиболее полезен компаниям, которые:</p>
+<h1>Уровни зрелости chaos engineering в компании<a class="headerlink" href="#chaos-engineering" title="Permalink to this headline">#</a></h1>
+<p>Внедрение хаос-испытаний в компании – многошаговый процесс, который
+может начинаться с разовых экспериментов, показывающих нештатное поведение
+конкретной системы в случае простых видов атак. Такие атаки воспроизводят события,
+которые были выявлены</p>
+<p>Шкалы зрелости:</p>
 <ul class="simple">
-<li><p>работают в сферах, где потребитель чувствителен к уровню надежности ИТ-сервисов;</p></li>
-<li><p>могут показать ценность надежной работы сервисов акционерам компании;</p></li>
-<li><p>ожидают роста требований по надежности со стороны регуляторов (например, в финансовом секторе);</p></li>
-<li><p>активно используют микросервисы и распределенные системы;</p></li>
-<li><p>имеют достаточные компетенции в проектировании отказоустойчивого ПО;</p></li>
-<li><p>планируют миграции на новые архитектуры или стек технологий, при этом хотят убедиться в отказоустойчивости нового решения;</p></li>
-<li><p>намерены совершенствовать техническую и организационную культуру компании.</p></li>
-</ul>
-<p>Воспользоваться chaos engineering будет сложнее компаниям, у которых:</p>
-<ul class="simple">
-<li><p>продукт или сервис находятся в начальной стадии разработки или прототипирования, архитектура приложений будет меняться;</p></li>
-<li><p>нет собственной разработки, ведется только настройка и эксплуатация приобретенного ПО;</p></li>
-<li><p>не стоит задача создания отказоустойчивого ПО;</p></li>
-<li><p>не предполагается масштабирование сервиса на большое число пользователей;</p></li>
-<li><p>по архитектуре преобладают монолитные приложения;</p></li>
-<li><p>специализация преимущественно на front-end разработке;</p></li>
-<li><p>не документируются требования или SLA используемых систем;</p></li>
-<li><p>не выстроен современный релизный цикл ПО или релизы занимают длительное время;</p></li>
-<li><p>проводится мало других видов тестирования помимо хаос-инжиниринга;</p></li>
-<li><p>нет мониторинга надежности сервисов в стадии эксплуатации;</p></li>
-<li><p>не ведется история и разбор инцидентов в области надежности;</p></li>
-<li><p>надежность сервиса не критична для пользователей;</p></li>
-<li><p>эксплуатируются legacy и end-of-life приложения, не подлежащие рефакторингу или доработке.</p></li>
+<li><p>кто: инициатива отдельных команд / корпоративный стандарт</p></li>
+<li><p>отношение к хаос-тестам: блокер / enabler</p></li>
+<li><p>ценность надежности для клиентов и бизнеса: “системы все равно падают, клиент привык” / “новые системы споосбы к самовосстановлению”</p></li>
+<li><p>отношение к знаниям о системах: “команда все знает о системе” / “никто ничего не знает о системе” / “знает-не знает все равно протестируем”</p></li>
+<li><p>взаимоотношение команд: навязывается/требуется, предлагается/показывается, команды ищут и хотят внедрять</p></li>
+<li><p>методология: “по книжкам” / “как у других” / “как нужно нам”</p></li>
+<li><p>целеполагение: “есть крутая технология” / “давайте покажем как у нас все хорошо (или плохо)” / мы знаем какие системы нам нужны,</p></li>
+<li><p>общий уровень развития Devops, других видов тестирования</p></li>
+<li><p>целевое поведение систем: самовосстановление и отказустойчивость</p></li>
+<li><p>есть ли автоматизация хаос-тестов</p></li>
+<li><p>есть ли кому работать с результатами тестов</p></li>
+<li><p>инструментарий: использование 1-2 пакетов / много пакетов / меньше, но правильнее</p></li>
+<li><p>количество атак: мало / много / меньше, но правильнее</p></li>
+<li><p>уровень внедрения: приглашенные специалисты / внутри отдельных команд / корпоративный центр</p></li>
 </ul>
 </section>
 
@@ -336,17 +331,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="README.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="scope.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Хаос-испытания отказоустойчивости информационных систем</p>
+            <p class="prev-next-title">Где применяется chaos engineering?</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="adoption.html" title="next page">
+    <a class='right-next' id="next-link" href="course.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Уровни зрелости chaos engineering в компании</p>
+        <p class="prev-next-title">Содержание и ожидаемые результаты курса</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
